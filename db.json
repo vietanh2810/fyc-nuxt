@@ -1,0 +1,83 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Sweatshirt",
+            "price": 39,
+            "imageName": "sweatshirt.png",
+            "variants": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "defaultVariant": "M",
+            "category": "body"
+        },
+        {
+            "id": 2,
+            "name": "T-shirt",
+            "price": 19,
+            "imageName": "tshirt.png",
+            "variants": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "defaultVariant": "M",
+            "category": "body"
+        },
+        {
+            "id": 3,
+            "name": "Mug",
+            "price": 19,
+            "imageName": "mug.png",
+            "category": "other"
+        },
+        {
+            "id": 4,
+            "name": "Cap",
+            "price": 19,
+            "imageName": "cap.png",
+            "category": "head"
+        },
+        {
+            "id": 5,
+            "name": "Beanie",
+            "price": 19,
+            "imageName": "beanie.png",
+            "category": "head"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "productId": 1,
+            "rating": 5,
+            "comment": "Great product!"
+        },
+        {
+            "id": 2,
+            "productId": 1,
+            "rating": 5,
+            "comment": "Great product!"
+        },
+        {
+            "id": 3,
+            "productId": 2,
+            "rating": 4,
+            "comment": "Nice product!"
+        },
+        {
+            "id": 4,
+            "productId": 2,
+            "rating": 5,
+            "comment": "Great product!"
+        }
+    ]
+}
